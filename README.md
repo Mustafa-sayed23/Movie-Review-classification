@@ -8,7 +8,7 @@
 ##### 3)	result column that contains type of the review (negative or positive).
 
 ##### dataset samples scatterplot shows that data is balanced
-![image](https://github.com/Mustafa-sayed23/Movie-Review-classification/assets/162192046/d4e7d0c8-0895-4a14-8d34-e227d4177529)
+![image](https://github.com/Mustafa-sayed23/Movie-Review-classification/assets/162192046/c7f176c1-db2e-4837-b52c-4ebcc9c1cd71)
 
 ##### • Text preprocessing
 ##### read the dataset, shuffle the data samples and drop index column from the data set.

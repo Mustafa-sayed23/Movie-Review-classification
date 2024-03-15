@@ -10,7 +10,7 @@
 ##### dataset samples scatterplot shows that data is balanced
 ![image](https://github.com/Mustafa-sayed23/Movie-Review-classification/assets/162192046/c7f176c1-db2e-4837-b52c-4ebcc9c1cd71)
 
-##### • Text preprocessing
+### • Text preprocessing
 ##### read the dataset, shuffle the data samples and drop index column from the data set.
 ##### convert all dataset samples into lower case.
 ##### then remove punctuation and numeric tokens from the samples as they are not important in the classification.
@@ -21,7 +21,7 @@
 ##### before training the classification models dataset has been splited into 80% training set and 20% testing set.
 ##### TfidfVectorizer has been used to encode (convert) the categorical data into numerical data on each word using max_features =  10000, Then transform the data sample.
 
-##### • Implemented Models
+### • Implemented Models
 ##### two models have been applied on the data:
 ##### 1)	Logistic Regression model from ski-learn library.
 ##### - This model has gived testing accuracy in range 86% - 90% (it differs every time as data is shuffled).
@@ -30,10 +30,10 @@
 
 ##### models results have been traced using confusion matrix:
 
-##### Logistic Regression model
+##### Logistic Regression model result
 ![image](https://github.com/Mustafa-sayed23/Movie-Review-classification/assets/162192046/54e3b9e6-cafb-4f83-a3e8-481abf60bc89)
 
-##### LinearSVC model using c = 1
+##### LinearSVC model using c = 1 result
 ![image](https://github.com/Mustafa-sayed23/Movie-Review-classification/assets/162192046/52f0e8a8-e87e-42f5-a3bd-7dbecc936418)
 
 
